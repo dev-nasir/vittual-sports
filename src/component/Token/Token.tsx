@@ -7,24 +7,29 @@ const Token = () => {
 
   // Link data for tabs
   const links = [
-    { id: "token", label: "$IGGTToken", content: "Token content goes here." },
+    {
+      id: "token",
+      label: "$IGGTToken",
+      content:
+        "Token content goes Here.Here you can find information about how to buy the  Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million Here you can find information about how to buy the  Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry.",
+    },
     {
       id: "buy",
       label: "How To Buy",
       content:
-        "Here you can find information about how to buy the  Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry..",
+        "Here you can find information about how to buy the  Invincible GG has developed a groundbreaking patented Here you can find information about how to buy the  Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry..",
     },
     {
       id: "tokenomics",
       label: "Tokenomics",
       content:
-        "This tab shows the tokenomics breakdown of the token Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry..",
+        "This tab shows the tokenomics breakdown of the token Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming Here you can find information about how to buy the  Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry industry..",
     },
     {
       id: "whitelist",
       label: "Whitelist",
       content:
-        "Whitelist information goes here Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry..",
+        "Whitelist information goes here Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. Here you can find information about how to buy the  Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry..",
     },
   ];
 
@@ -36,9 +41,9 @@ const Token = () => {
   return (
     <section className="bg-black xl:py-20">
       <div className="max-w-5xl mx-auto px-4">
-        <div className="flex justify-between items-center flex-col sm:flex-col md:flex-col lg:flex-row md:gap-8 lg:gap-20 xl:gap-40">
+        <div className="flex justify-betwedxen items-center flex-col sm:flex-col md:flex-col lg:flex-row md:gap-8 lg:gap-20 xl:gap-40">
           {/* Left Side Links (Tabs) */}
-          <div className="flex flex-row sm:flex-row md:flex-row lg:flex-col gap-4 md:gap-6 xl:gap-8 space-y-4 text-[14px] sm:text-[28px] md:text-3xl lg:text-[28px] xl:text-[32px] mt-10">
+          <div className="flex flex-row sm:flex-row md:flex-row lg:flex-col gap-4 md:gap-6 xl:gap-8 space-y-4 text-[14px] sm:text-[28px] md:text-3xl lg:text-[28px] xl:text-[32px] mt-30">
             {links.map(({ id, label }) => (
               <a
                 key={id}
@@ -55,7 +60,7 @@ const Token = () => {
           </div>
 
           {/* Right Side (Content) */}
-          <div className="border-1 bg-gray-950 border-white rounded-[30px] max-sm:max-w-[90%] p-10">
+          <div className="border-1 bg-gray-950 border-white rounded-[30px] max-sm:max-w-[100%] p-10">
             <h2 className="text-yellow-300 text-[18px] sm:text-[28px] md:text-3xl lg:text-[28px] xl:text-[32px] mb-4">
               Invincible GG: A Gaming Technology Powerhouse
             </h2>

@@ -34,7 +34,7 @@ const Revolution = () => {
 
           <div className="flex-1 mb-12 lg:mb-0">
             <img
-              src="/src/assets/images/coin_04 1.png"
+              src="/assets/images/coin_04 1.png"
               alt="coin"
               className="w-full h-auto object-cover"
             />
