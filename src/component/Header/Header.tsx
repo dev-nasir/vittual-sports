@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import logo from "../../assets/images/logo.png"
+import background from "../../assets/images/background.png"
 
 
 const Header = () => {
@@ -75,8 +76,7 @@ const Header = () => {
       <div className="relative w-full bg-black">
         {/* Background Image */}
         <img
-          src="/src/assets/images/background.png"
-          alt="Background"
+          src={background} alt="background" 
           className="w-full h-full object-cover absolute inset-0"
         />
 
