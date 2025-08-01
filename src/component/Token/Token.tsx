@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type SetStateAction } from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Token = () => {
@@ -26,7 +26,7 @@ const Token = () => {
   ];
 
   // Function to handle tab click
-  const handleLinkClick = (linkId) => {
+  const handleLinkClick = (linkId: SetStateAction<string>) => {
     setActiveLink(linkId);
   };
 
