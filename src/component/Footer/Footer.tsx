@@ -1,5 +1,5 @@
 import { useState } from "react";
-import backgroundImage from "../../assets/images/footer-bg.png";
+import backgroundImage from "/assets/images/footer-bg.png";
 
 export default function Footer() {
   const [email, setEmail] = useState("");

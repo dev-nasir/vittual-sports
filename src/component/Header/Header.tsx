@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import logo from "../../assets/images/logo.png"
-import background from "../../assets/images/background.png"
+import logo from "/assets/images/logo.png"
+import background from "/assets/images/background.png"
 
 
 const Header = () => {
