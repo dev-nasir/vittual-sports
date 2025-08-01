@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import logo from "/src/assets/images/logo.png"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,11 +12,7 @@ const Header = () => {
   return (
     <>
       <header className="absolute z-20 flex justify-between items-center px-8 py-8 w-full">
-        <img
-          src="/assets/images/logo.png"
-          alt="Logo"
-          className="h-2 sm:h-4 md:h-4"
-        />
+        <img src={logo} alt="logo" />
 
         {/* Hamburger Menu for Mobile */}
         <button
