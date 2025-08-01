@@ -48,17 +48,17 @@ export default function Footer() {
               {/* Social Icons */}
               <div className="flex items-center gap-6 mt-6 flex-wrap">
                 <img
-                  src="../../../src/assets/images/fab-1.png"
+                  src="/assets/images/fab-1.png"
                   alt="coin"
                   className="w-12 h-12 md:w-14 md:h-14 object-cover"
                 />
                 <img
-                  src="../../../src/assets/images/facebook.png"
+                  src="/assets/images/facebook.png"
                   alt="facebook"
                   className="w-12 h-12 md:w-14 md:h-14 object-cover"
                 />
                 <img
-                  src="../../../src/assets/images/instagram.png"
+                  src="/src/assets/images/instagram.png"
                   alt="instagram"
                   className="w-12 h-12 md:w-14 md:h-14 object-cover"
                 />

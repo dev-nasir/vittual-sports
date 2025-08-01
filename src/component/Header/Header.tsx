@@ -114,7 +114,7 @@ const Header = () => {
         {/* Coin Image */}
         <div className="relative z-10 ">
           <img
-            src="/src/assets/images/banner.png"
+            src="/assets/images/banner.png"
             alt="Coin Image"
             className="w-full object-contain lg:-mt-46 xl:-mt-46"
           />

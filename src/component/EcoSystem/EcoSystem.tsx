@@ -24,7 +24,7 @@ const EcoSystem = () => {
       <div className="relative w-full  bg-black ">
         {/* Background Image */}
         <img
-          src="/src/assets/images/ecosystem.png"
+          src="/assets/images/ecosystem.png"
           alt="Background"
           className="w-full h-full object-cover"
         />

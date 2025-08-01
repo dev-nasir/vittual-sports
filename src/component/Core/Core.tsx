@@ -1,25 +1,25 @@
 const Core = () => {
   const features = [
     {
-      icon: "/src/assets/images/ownership.png",
+      icon: "/assets/images/ownership.png",
       title: "True Ownership",
       description:
         "Players own their assets, including AI-powered virtual horses and NFTs",
     },
     {
-      icon: "/src/assets/images/skill-based.png",
+      icon: "/assets/images/skill-based.png",
       title: "Skill-Based Contests",
       description:
         "Engage in competitive gaming experiences that reward strategy over chance",
     },
     {
-      icon: "/src/assets/images/economy.png",
+      icon: "/assets/images/economy.png",
       title: "Tokenized Economy",
       description:
         "The IGG Token ($IGGT) fuels transactions, governance, and participation",
     },
     {
-      icon: "/src/assets/images/global.png",
+      icon: "/assets/images/global.png",
       title: "Global Accessibility",
       description:
         "Available across multiple platforms with integration into real-world wagering markets",

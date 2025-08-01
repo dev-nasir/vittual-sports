@@ -11,17 +11,20 @@ const Token = () => {
     {
       id: "buy",
       label: "How To Buy",
-      content: "Here you can find information about how to buy the token.",
+      content:
+        "Here you can find information about how to buy the  Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry..",
     },
     {
       id: "tokenomics",
       label: "Tokenomics",
-      content: "This tab shows the tokenomics breakdown of the token.",
+      content:
+        "This tab shows the tokenomics breakdown of the token Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry..",
     },
     {
       id: "whitelist",
       label: "Whitelist",
-      content: "Whitelist information goes here.",
+      content:
+        "Whitelist information goes here Invincible GG has developed a groundbreaking patented platform that revolutionizes mobile skill gaming and live virtual sport content for legal wagering in regulated markets. With $30 million in funding and a successful beta launch, Invincible GG is poised to redefine the gaming industry..",
     },
   ];
 
@@ -39,7 +42,6 @@ const Token = () => {
             {links.map(({ id, label }) => (
               <a
                 key={id}
-              
                 onClick={() => handleLinkClick(id)}
                 className={`text-white transition mb-20 ${
                   activeLink === id
