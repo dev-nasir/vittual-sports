@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <header className="absolute z-20 flex justify-between items-center px-8 py-8 w-full">
         <img
-          src="/src/assets/images/logo.png"
+          src="/assets/images/logo.png"
           alt="Logo"
           className="h-2 sm:h-4 md:h-4"
         />
