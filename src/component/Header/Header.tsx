@@ -16,7 +16,7 @@ const Header = () => {
       <header className="absolute z-20 flex justify-between items-center px-8 py-8 w-full">
         <img
          src={logo} alt="logo" 
-          className="h-2 sm:h-4 md:h-4"
+          className="h-3 sm:h-4 md:h-4"
         />
  
         {/* Hamburger Menu for Mobile */}

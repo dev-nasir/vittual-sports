@@ -13,15 +13,15 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-black text-white ">
+    <footer className="bg-black text-white">
       <div
         className="bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
-        <div className="container  mx-auto px-6 sm:px-6 md:px-0 lg:px-10">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 sm:p-4 justify-between items-center ">
+        <div className="container flex justify-center items-center mx-auto px-6 sm:px-6 md:px-0 lg:px-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 sm:p-4 justify-center items-center">
             {/* Left Section - Join Our List */}
-            <div className="lg:col-span-1 mt-10">
+            <div className="lg:col-span-1 mt-30">
               <h2 className="text-[22px] font-bold xl:mb-4">Join Our List</h2>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
@@ -35,11 +35,11 @@ export default function Footer() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter Email Address"
-                  className="w-full px-4 py-3 bg-transparent border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:border-yellow-500 transition-colors "
+                  className="w-full px-4 py-3 bg-transparent border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:border-yellow-500 transition-colors"
                 />
                 <button
                   onClick={handleSubmit}
-                  className="absolute right-1 top-1 bottom-1 cursor-pointer px-8 py-3 text-center bg-yellow-500 text-black font-semibold hover:bg-yellow-400 transition-colors "
+                  className="absolute right-1 top-1 bottom-1 cursor-pointer px-8 py-3 text-center bg-yellow-500 text-black font-semibold hover:bg-yellow-400 transition-colors"
                 >
                   Join Now
                 </button>
@@ -66,9 +66,9 @@ export default function Footer() {
             </div>
 
             {/* Right Section - Links */}
-            <div className="lg:col-span-2 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-8">
+            <div className="lg:col-span-2 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-8 justify-center items-center">
               {/* About Column */}
-              <div>
+              <div className="text-center">
                 <h3 className="text-xl font-semibold mb-6">About</h3>
                 <ul className="space-y-4">
                   <li>
@@ -99,7 +99,7 @@ export default function Footer() {
               </div>
 
               {/* Legal Column */}
-              <div>
+              <div className="text-center">
                 <h3 className="text-xl font-semibold mb-6">Copyright</h3>
                 <ul className="space-y-4">
                   <li>
@@ -135,4 +135,3 @@ export default function Footer() {
     </footer>
   );
 }
- 
