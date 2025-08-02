@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 sm:p-4 justify-center items-center">
             {/* Left Section - Join Our List */}
             <div className="lg:col-span-1 mt-30">
-              <h2 className="text-[22px] font-bold xl:mb-4">Join Our List</h2>
+              <h2 className="sm:text-[24px] md:text-[28px] lg:text-[36px] xl:text-[40px] font-bold xl:mb-4">Join Our List</h2>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vulputate libero et velit interdum, ac aliquet odio mattis.
@@ -66,10 +66,10 @@ export default function Footer() {
             </div>
 
             {/* Right Section - Links */}
-            <div className="lg:col-span-2 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-8 justify-center items-center">
+            <div className="lg:col-span-2 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-8 md:items-start xl:justify-center xl:items-center">
               {/* About Column */}
-              <div className="text-center">
-                <h3 className="text-xl font-semibold mb-6">About</h3>
+              <div className="xl:text-center">
+                <h3 className="text-xl  font-semibold mb-6">About</h3>
                 <ul className="space-y-4">
                   <li>
                     <a
