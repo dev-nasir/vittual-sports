@@ -72,7 +72,7 @@ const Token = () => {
             {/* Explore More Button */}
             <div className="mt-6 flex justify-end">
               <a
-                href="#"
+              
                 className="bg-transparent text-white border-1 border-white py-2 px-6 hover:bg-yellow-400 hover:text-black flex items-center gap-2"
               >
                 Explore More <MdOutlineArrowOutward size={20} />
